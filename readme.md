@@ -6,3 +6,5 @@
 所以我决定用sonic-pi为好和弦的每一节课配上代码. 
 
 您只需要下载[sonic-pi](https://sonic-pi.net/), load这里的.rb文件, 然后run就可以了. 
+
+音乐和弦和sonic-pi, 这两个都是我正在学习的东西, 所以可能会有很多错误, 请不吝赐教发issue.
