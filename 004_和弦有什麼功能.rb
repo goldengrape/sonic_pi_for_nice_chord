@@ -2,7 +2,7 @@
 ##| 和弦有什麼功能
 
 ##| define scale
-s=scale(:C4, :major, num_octaves: 2)
+s=scale(:C3, :major, num_octaves: 2)
 
 ##| define kinds of chords
 tonic_chord=(ring s[0],s[2],s[4])
@@ -55,3 +55,9 @@ live_loop :chord_trans do
   sleep 1
   current_id=next_id
 end
+
+live_loop :melody do
+  play_pattern_timed scale(:C4,:major).shuffle.take(4), 0.5
+end
+
+
